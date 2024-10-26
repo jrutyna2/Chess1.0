@@ -1,0 +1,23 @@
+
+This program is run with the command java Game.java
+
+the minimax function can be found in Board.java as "public double minimax()"
+it uses alpha beta pruning in a min max tree and recursively calls itself, it takes in
+a depth subtracts 1 from it for each recursion. It returns the evaluation of the
+board after each move is tested. It attempts to find the best move by searching the
+tree for the minimum value (for black) or the maximum value (for white), there is
+further explanation in the comments of the function.
+
+
+
+
+
+
+
+
+
+
+the class files are generated with
+"javac -d . Game.java Board.java Square.java Piece.java Pawn.java
+Queen.java King.java Rook.java Bishop.java Knight.java Check.java Move.java"
+but they should already be there. 
